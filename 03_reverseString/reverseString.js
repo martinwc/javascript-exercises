@@ -1,11 +1,5 @@
-const reverseString = function(inputString) {
-let reverseArray = []
-for (let i = 0; i < inputString.length; i++) {
-    reverseArray.push(inputString[i]);
-} 
-reverseArray.reverse();
-const reverseString = reverseArray.join("");
-return reverseString("hello there");
+const reverseString = function(string) {
+return string.split("").reverse().join("");
 };
 
 // Do not edit below this line
