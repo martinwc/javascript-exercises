@@ -1,11 +1,12 @@
-const repeatString = function(hey) {
+const repeatString = function(str, num) {
 let result = "";
-for (; result < 3; i++) {
-return result += hey;
+for (let i = 0; i < num; i++) {
+    result += str;
 }
 return result;
+console.log(repeatString("hey",3));
 };
 
-console.log(repeatString("heyheyhey"))
+
 // Do not edit below this line
 module.exports = repeatString;
