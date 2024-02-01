@@ -3,7 +3,7 @@ let reverseArray = []
 for (let i = 0; i < inputString.length; i++) {
     reverseArray.push(inputString[i]);
     reverseArray.reverse();
-    reverseArray.join("");
+    const reverseString = reverseArray.join("");
 } 
 
 return reverseString("hello there");
